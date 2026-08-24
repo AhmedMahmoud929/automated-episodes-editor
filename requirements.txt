@@ -1,0 +1,7 @@
+Pillow>=10.0.0
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
+rich>=13.0.0
+fonttools>=4.0.0
+uharfbuzz>=0.37.0
+freetype-py>=2.4.0

@@ -1,0 +1,179 @@
+{
+  "settings": {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "intro_duration": 3.0,
+    "outro_duration": 2.0,
+    "fade_duration": 1.0,
+    "watermark": {
+      "enabled": true,
+      "logo": "assets/logo.png",
+      "opacity": 0.45,
+      "scale": 0.12,
+      "margin": 24,
+      "position": "bottom_right"
+    },
+    "intro": {
+      "background": "#F2F2F2",
+      "primary_color": "#2D4739",
+      "title_color": "#2D4739",
+      "line_color": "#B5B5B5",
+      "subtitle_color": "#757575",
+      "number_text_color": "#FFFFFF",
+      "production_text_color": "#8A8A8A",
+      "footer_box_fill": "#F7F7F7",
+      "footer_box_border": "#D4D4D4",
+      "logo_main": "assets/logo.png",
+      "logo_partner": "assets/alfaiza.webp",
+      "font": "fonts/Rubik-Bold.ttf",
+      "subtitle_font": "fonts/Rubik-Regular.ttf",
+      "number_font": "fonts/Rubik-Bold.ttf",
+      "production_font": "fonts/Rubik-Regular.ttf",
+      "font_size": 96,
+      "subtitle_font_size": 32,
+      "number_font_size": 18,
+      "production_font_size": 22,
+      "logo_main_width": 360,
+      "logo_partner_width": 130,
+      "edge_margin": 72,
+      "title_to_number_gap": 76,
+      "number_subtitle_gap": 16,
+      "title_text_offset_y": 28,
+      "number_circle_radius": 20,
+      "production_text": "إنتاج وتنفيذ"
+    }
+  },
+  "episodes": [
+    {
+      "id": "ep_01",
+      "number": 1,
+      "input": "input/ep_01.mp4",
+      "title": "نظرة عامة",
+      "output": "output/ep_01.mp4",
+      "cuts": [
+        {"start": "02:35", "end": "02:40"},
+        {"start": "03:23", "end": "03:29"},
+        {"start": "06:32", "end": "06:34"}
+      ]
+    },
+    {
+      "id": "ep_02",
+      "number": 2,
+      "input": "input/ep_02.mp4",
+      "title": "إعدادات المتجر: اللغات والعملات",
+      "output": "output/ep_02.mp4",
+      "cuts": [
+        {"start": "01:49", "end": "01:51"},
+        {"start": "02:18", "end": "02:19"},
+        {"start": "02:36", "end": "02:37"},
+        {"start": "02:51", "end": "03:04"},
+        {"start": "03:48", "end": "04:11"},
+        {"start": "04:30", "end": "04:33"},
+        {"start": "04:38", "end": "04:54"},
+        {"start": "05:10", "end": "05:25"}
+      ]
+    },
+    {
+      "id": "ep_03",
+      "number": 3,
+      "input": "input/ep_03.mp4",
+      "title": "إعدادات المتجر: أقسام الصفحة الرئيسية",
+      "output": "output/ep_03.mp4",
+      "cuts": [
+        {"start": "00:23", "end": "00:28"},
+        {"start": "00:39", "end": "00:41"},
+        {"start": "02:07", "end": "02:17"},
+        {"start": "02:20", "end": "02:23"},
+        {"start": "03:44", "end": "03:46"},
+        {"start": "04:36", "end": "04:41"},
+        {"start": "06:33", "end": "06:36"},
+        {"start": "06:49", "end": "06:50"},
+        {"start": "07:06", "end": "07:21"},
+        {"start": "08:31", "end": "08:33"},
+        {"start": "09:01", "end": "09:32"},
+        {"start": "09:47", "end": "09:51"},
+        {"start": "10:18", "end": "10:24"},
+        {"start": "10:27", "end": "10:29"},
+        {"start": "11:04", "end": "11:07"}
+      ]
+    },
+    {
+      "id": "ep_04",
+      "number": 4,
+      "input": "input/ep_04.mp4",
+      "title": "الصفحات والوسائط",
+      "output": "output/ep_04.mp4",
+      "cuts": [
+        {"start": "00:48", "end": "00:52"},
+        {"start": "01:09", "end": "01:16"},
+        {"start": "01:44", "end": "02:48"},
+        {"start": "05:21", "end": "05:24"},
+        {"start": "05:57", "end": "06:03:500"},
+        {"start": "06:17", "end": "06:20:500"}
+      ]
+    },
+    {
+      "id": "ep_05",
+      "number": 5,
+      "input": "input/ep_05.mp4",
+      "title": "المدونة",
+      "output": "output/ep_05.mp4",
+      "cuts": [
+        {"start": "01:22:300", "end": "01:24"},
+        {"start": "01:35:700", "end": "01:37:700"},
+        {"start": "03:45", "end": "03:53"},
+        {"start": "09:09", "end": "09:11"}
+      ]
+    },
+     {
+      "id": "ep_06",
+      "number": 6,
+      "input": "input/ep_06.mp4",
+      "title": "إدارة المنتجات",
+      "output": "output/ep_06.mp4",
+      "cuts": [
+        {"start": "03:26:50", "end": "03:28"},
+        {"start": "03:53:50", "end": "03:54:700"},
+        {"start": "03:56:500", "end": "04:04"},
+        {"start": "04:16", "end": "04:23"},
+        {"start": "05:50:100", "end": "05:54:500"},
+        {"start": "07:20", "end": "07:23"}
+      ]
+    },
+    {
+      "id": "ep_07",
+      "number": 7,
+      "input": "input/ep_07.mp4",
+      "title": "إدارة الطلبات",
+      "output": "output/ep_07.mp4",
+      "cuts": [
+        {"start": "02:20", "end": "02:24"},
+        {"start": "02:58:200", "end": "02:59"},
+        {"start": "03:03", "end": "03:05"},
+        {"start": "04:23", "end": "04:30"}
+      ]
+    },
+    {
+      "id": "ep_08",
+      "number": 8,
+      "input": "input/ep_08.mp4",
+      "title": "العملاء",
+      "output": "output/ep_08.mp4",
+      "cuts": [
+        {"start": "01:26", "end": "01:38"},
+        {"start": "03:12:100", "end": "03:15:900"},
+        {"start": "03:25", "end": "03:28"},
+        {"start": "04:01", "end": "04:07"},
+        {"start": "04:13", "end": "04:22:500"},
+        {"start": "04:13", "end": "04:22:500"},
+        {"start": "04:30", "end": "04:33:500"},
+        {"start": "05:13", "end": "05:23"},
+        {"start": "05:30:500", "end": "05:33"},
+        {"start": "05:43:500", "end": "05:53"}
+      ]
+    }
+  ]
+}

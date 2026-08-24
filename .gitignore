@@ -1,0 +1,11 @@
+# Generated / large media
+/input/
+/output/
+/episodes/
+
+# Pipeline temp files
+/temp/
+
+# Python
+__pycache__/
+*.py[cod]
